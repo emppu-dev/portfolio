@@ -1,7 +1,7 @@
 # Portfolio
-My portfolio page
-Currently only shows my skills / info and tech stack
-Will display all of my projects soon
+My portfolio page<br>
+Currently only shows my skills / info and tech stack<br>
+Will display all of my projects soon<br>
 
 ## 📸 Preview
 ![image](https://github.com/emppu-dev/portfolio/assets/83163481/2b024233-c22f-45ac-bff1-683851653e59)
