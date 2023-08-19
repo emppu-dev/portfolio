@@ -10,6 +10,10 @@ body {
   min-height: 100vh;
   background-color: #0d1116;
   color: #fff;
+  background-image: url("media/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
