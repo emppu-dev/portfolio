@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Sora:400,700&display=swap');
+body {
+  font-family: 'Sora', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0d1116;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  text-align: left;
+  padding: 20px;
+  background-color: #14181d;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.top-title {
+  font-size: 30px;
+  margin-left: -150px;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-pic,
+.github-pic {
+  z-index: 1;
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.github-pic {
+  filter: invert(100%);
+}
+
+.bottom-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  max-width: 500px;
+}
+
+.skills-box {
+  flex-basis: calc(50% - 10px);
+  background-color: #14181d;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 5px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .bottom-boxes {
+    flex-direction: column;
+  }
+  
+  .skills-box {
+    flex-basis: 100%;
+    margin: -20px 0;
+  }
+  
+  .top-title {
+    margin: 0;
+  }
+}
